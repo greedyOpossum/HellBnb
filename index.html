@@ -5,12 +5,41 @@
     <title>Hell BnB</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
-    </style> 
+        .html,body{
+             /* Para que funcione correctamente en Smartphones y Tablets */
+             height:100vh;
+        }
+        body {
+             /* Ruta relativa o completa a la imagen */
+             background-image: url(media/Mainmenu-noTitle.gif);
+             /* Centramos el fondo horizontal y verticalmente */
+             background-position: center center;
+             /* El fonde no se repite */
+             background-repeat: no-repeat;
+             /* Fijamos la imagen a la ventana para que no supere el alto de la ventana */
+             background-attachment: fixed;
+             /* El fonde se re-escala automáticamente */
+             background-size: cover;
+             /* Color de fondo si la imagen no se encuentra o mientras se está cargando */
+             background-color: #060606;
+             /* Fuente para el texto */
+             text-align: center;
+             color: #000;
+             font-family: "Courier", Times, serif;
+             font-size: 18px;
+        }
+        </style> 
 </head>
 
 <body>
-    <div class="Title" style="">
-        <p>Hell BnB</p>
+    <div class="Title">
+        <img src="media/Mainmenu_title.png" 
+        alt="Hell BnB" 
+        style=" padding-top: 10vh; 
+                width: 60vw;">
+    </div>
+    <div class="Contact" style="padding-top: 25vh;">
+        <p>Contact us at: <br> greedyopossum (at) gmail.com</p>
     </div>
 </body>
 

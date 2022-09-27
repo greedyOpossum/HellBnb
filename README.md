@@ -1,1 +1,0 @@
-# HellBnb: a landing page
